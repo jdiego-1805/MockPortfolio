@@ -1,12 +1,46 @@
 nav{
-    text-align: end;
-   justify-content: end; 
+    justify-content: end;
+   display: flex;
+   border: 5px
 }
+
 p{
     text-align: flex;
 }
+
 strong{
     background-color: blue;
     color: white;
-    height: 30px
+    height: 30px;
+    height: 100px;
 }
+
+aside{
+    display: flex;
+}
+
+header{
+
+    background-color: blue;
+    height: 100px;
+  }
+  h1, h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+  body{
+    display: grid;
+  
+    background-color: grey;
+  }
+  /* set up */
+  section{
+   
+    margin: 50px;
+  }
+  
+  
+  div{
+    color:white;
+  
+  }
