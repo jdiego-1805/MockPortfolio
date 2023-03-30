@@ -1,0 +1,12 @@
+nav{
+    text-align: end;
+   justify-content: end; 
+}
+p{
+    text-align: flex;
+}
+strong{
+    background-color: blue;
+    color: white;
+    height: 30px
+}
