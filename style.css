@@ -1,7 +1,7 @@
 nav{
     justify-content: end;
    display: flex;
-   border: 5px
+    gap: 10px;
 }
 
 p{
@@ -16,13 +16,13 @@ strong{
 }
 
 aside{
-    display: flex;
+    grid-area: repeat(4, 1fr)
 }
 
 header{
 
     background-color: blue;
-    height: 100px;
+    height: 70px;
   }
   h1, h2{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -35,12 +35,11 @@ header{
   }
   /* set up */
   section{
-   
-    margin: 50px;
+        display: block;
   }
   
   
   div{
     color:white;
-  
+    grid-template-rows: auto;
   }
