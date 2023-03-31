@@ -4,27 +4,28 @@ nav{
     gap: 10px;
 }
 
-p{
-    text-align: flex;
+nav {
+  flex: 3;
+  background-color: #ffff;
+  padding: 20px;
 }
 
 strong{
     background-color: blue;
     color: white;
-    height: 30px;
     height: 100px;
+    padding-left: 2%;
 }
 
 aside{
-    grid-area: repeat(4, 1fr)
-}
+    grid-area: repeat(4, 1fr);
+  }
 
 header{
-
     background-color: blue;
-    height: 70px;
+    height: 120px;
   }
-  h1, h2{
+  h1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
   }
@@ -40,6 +41,8 @@ header{
   
   
   div{
-    color:white;
+    color: gray;
     grid-template-rows: auto;
+    margin: 20px;
+    padding: 20px;
   }
