@@ -41,15 +41,16 @@ strong{
 header{
     background-color: blue;
     height: 120px;
-    border-style: dashed;
+    border-style: solid;
     margin: -.5%;
   }
   h1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
+    
   }
   body{
-    display: grid;
+    display: inline-flexbox;
   
     background-color: grey;
   }
@@ -72,11 +73,22 @@ header{
     font-size: larger;
   }
 
-  /* h3{ */
-  
-  
+  h3{
+    flex: 1;
+  }
 
 footer{
   /* display: ; */
   text-align: center;
+}
+
+section{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    border: 5px solid black;
+
+
+
+
 }
