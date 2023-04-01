@@ -1,3 +1,4 @@
+/* top about buttons */
 nav{
     justify-content: end;
    display: flex;
@@ -6,7 +7,7 @@ nav{
   background-color: #ffff;
   padding: 10px;
 }
-
+/* header */
 strong{
     background-color: blue;
     color: white;
@@ -14,6 +15,7 @@ strong{
     padding-left: 2%;
 }
 
+/* button */
 .adv{
   width: 10em;
   height: 5ex;
@@ -34,61 +36,67 @@ strong{
   background-color: orange;
 }
 
-/* .adv:active{ */
-  
-
-
 header{
     background-color: blue;
     height: 120px;
     border-style: solid;
     margin: -.5%;
   }
+
+  /* name */
   h1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
+    text-align: right;
     
   }
   body{
     display: inline-flexbox;
-  
     background-color: grey;
   }
+
   /* set up */
   section{
         display: block;
   }
   
-  
+  /* Resume section */
   div{
-    color: gray;
+    color: black;
     grid-template-rows: auto;
-    margin: 20px;
     padding: 20px;
+    border-style: solid double none;
   }
   
+  /* about me */
   p{
-    text-align: center;
+
+    text-align: right;
     font-family: monospace;
     font-size: larger;
+    word-wrap: normal;
+
   }
 
-  h3{
-    flex: 1;
-  }
 
 footer{
   /* display: ; */
   text-align: center;
 }
 
+/* work section */
 section{
     text-align: center;
-    display: grid;
     grid-template-columns: 1fr 3fr;
-    border: 5px solid black;
+    grid-template-rows: 2fr 1fr 1fr;
+    background-color: lightblue;
+    color: grey;
+    font-size: x-large;
+    border-style: solid double none;
 
+}
 
+.fit-picture{
+  display: inline-block;
 
-
+  height: 200px
 }
