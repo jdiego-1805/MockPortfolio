@@ -61,6 +61,8 @@ footer{
   color: white;
 }
 
+
+
 /* work section */
 section{
     text-align: center;
@@ -68,12 +70,6 @@ section{
     color: black;
     font-size: x-large;
     border-style: solid double none;
-
-}
-
-.fit-picture{
-  display: inline-flex;
-  border: 2px;
 }
 
 /* button */
@@ -111,5 +107,18 @@ h4{
     display: inline-flex;
     width: 80%
 
+  }
+}
+
+@media screen and (max-width576){
+
+  nav{
+    display: inline-flex;
+    gap: 1%;
+  }
+  .fit-picture{
+    display: inline-flex;
+    width: 50%;
+    height: 50%;
   }
 }
