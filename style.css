@@ -1,11 +1,12 @@
 /* top about buttons */
 nav{
-    justify-content: end;
+    justify-content: center;
    display: flex;
-    gap: 10px;
+    gap: 200px;
   flex: 3;
   background-color: #3a98b9;
   padding: 10px;
+  font-size: 1.5em;
 }
 /* header */
 strong{
@@ -18,9 +19,10 @@ strong{
 
 header{
     background-color: blue;
-    height: 120px;
     border-style: solid;
     margin: -.5%;
+    font-size: 1.5rem;
+    text-align: center;
   }
 
   /* name */
@@ -39,16 +41,17 @@ header{
   #about-me .content{
     width: 500px;
     text-align: center;
+    font-size: 1.5em;
   }
 
   body{
-    background-color: grey;
+    background-image: url(./assets/grey.jpg);
   }
 
   /* Resume section */
   .resume-section{
     color: black;
-    padding: 20px;
+    padding: 45px;
     border-style: solid double none;
   }
 
@@ -68,7 +71,7 @@ section{
 }
 
 .fit-picture{
-  display: flex;
+  display: inline-flex;
   border: 2px;
 }
 
