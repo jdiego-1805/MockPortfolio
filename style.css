@@ -113,11 +113,15 @@ h4{
   .fit-picture{
     display: inline-flex;
     width: 80%
-
+  }
+  h5{
+    background-color: black;
+    font-size: 1.3em;
+    
   }
 }
 
-@media screen and (max-width576){
+@media screen and (max-width: 576px){
 
   nav{
     display: inline-flex;
@@ -127,5 +131,10 @@ h4{
     display: inline-flex;
     width: 50%;
     height: 50%;
+  }
+  h5{
+    background-color: black;
+    width: 0%;
+    font-size: 1.3em;
   }
 }
