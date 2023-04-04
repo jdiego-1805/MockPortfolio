@@ -77,7 +77,7 @@ section{
 }
 
 /* button */
-.adv{
+/* .adv{
    width: 10em;
    height: 5ex;     background-color: lightblue;
      border: 2px solid black;
@@ -96,7 +96,20 @@ section{
 }
 .adv:hover{
    background-color: orange;
-}
+} */
+
 h4{
   display: inline-flex;
+}
+
+@media screen and (max-width: 768px){
+  nav{
+    display: inline-flex;
+    gap: 1%;
+  }
+  .fit-picture{
+    display: inline-flex;
+    width: 80%
+
+  }
 }
