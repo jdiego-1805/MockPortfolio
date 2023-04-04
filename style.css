@@ -58,6 +58,7 @@ header{
 footer{
   /* display: ; */
   text-align: center;
+  color: white;
 }
 
 /* work section */
@@ -95,4 +96,7 @@ section{
 }
 .adv:hover{
    background-color: orange;
+}
+h4{
+  display: inline-flex;
 }
