@@ -98,11 +98,21 @@ section{
   background-color: black;
   width: 40%;
   font-size: 1.3em;
-  margin: 10px 0px 0px 440px
+  margin: 0% auto
 }
 
 h4{
   display: inline-flex;
+}
+.resume-section h4{
+  position: absolute;
+  top: 0;
+  left: 30%;
+  color: aqua;
+}
+.resume-section div{
+  position: relative;
+
 }
 
 @media screen and (max-width: 768px){
