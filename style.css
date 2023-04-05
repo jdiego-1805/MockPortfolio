@@ -72,28 +72,6 @@ section{
     border-style: solid double none;
 }
 
-/* button */
-/* .adv{
-   width: 10em;
-   height: 5ex;     background-color: lightblue;
-     border: 2px solid black;
-      border-radius: 10px;
-      font-weight: bold;
-      color: black;
-      cursor: pointer;
-      position: absolute;
-        top: 70px;
-        left: 69px;
-}
-    
-.adv:active {
-   font-size: 85%;
-   box-shadow: 0 0 10px #000 inset;
-}
-.adv:hover{
-   background-color: orange;
-} */
-
  h5{
   background-color: black;
   width: 40%;
