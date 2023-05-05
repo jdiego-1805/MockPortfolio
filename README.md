@@ -15,3 +15,7 @@ This is my portfolio and it has some of my work that I was able to add to the we
 ## License
 
 N/A
+
+## Link
+
+https://jdiego-1805.github.io/MockPortfolio/
